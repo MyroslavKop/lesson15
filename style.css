@@ -1,0 +1,21 @@
+.album_title {
+  animation-duration: 2s;
+  animation-name: slidein;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 40%;
+    opacity: 20%;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 100%;
+  }
+}
+.album_title::first-letter {
+  text-transform: uppercase;
+  font-size: 20px;
+}
